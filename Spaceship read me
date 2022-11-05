@@ -1,0 +1,20 @@
+# Welcome to My Spaceship
+Welcome to My Spaceship it implementsa hash table and a ton of if statements I left some comments for ya.
+
+## Task
+imagine a coordinate graph give a spaceship a starting point of 0,0 and facing up. find the end coordinates and direction at the end of a list of instructions.
+
+## Description
+I used a hash table and simple addition to find the direction of the spaceship. and if statements to find the coordinates.
+
+## Installation
+down load the spaceship.js file and load a list of instructions such as "RRRAAAALLLL" where R and L are directions for turn left or turn right. and A is dor advance.
+
+## Usage
+if you want to know where and which direction a spaceship is facing at the end of a route simply use the above.
+
+### The Core Team
+Me myself and I. It was fun yet challenging.
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar Silicon Valley</a></i></span>
+<span><img alt='Qwasar Silicon Valley Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>

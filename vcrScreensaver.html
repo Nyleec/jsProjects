@@ -1,0 +1,45 @@
+<html style='background-color: black'>
+  <div id="my_bouncing_box" style= "background-color: blue; border-radius: 3px; position: absolute; left: 0px; top: 0px; min-width: 100px; min-height: 100px; text-align: center; font-weight: bold; color: #999;" ></div>
+ <div id="body" style = "height:100vh; width:100vh">
+ <script type="text/javascript">
+ //assign html div to js variables
+    move = document.getElementById("my_bouncing_box");
+    body = document.getElementById("body");
+    height=window.innerHeight;
+    width=window.innerWidth;
+    console.log(height);
+    console.log(width);
+   
+    //sets x,y coordinates to be used to move box
+    var x =0; var y =0;
+    //bools to determine direction
+    var down = true; var right = true;
+    id = setInterval(frame,300);
+
+    function frame(){
+        if(down==true){
+        y+=10;
+        move.style.top = y + 'px'; 
+        if(move.offsetTop>height)down=false;
+        }
+        else if(down==false){
+        y-=10;
+        move.style.top = y + 'px'; 
+        if(move.offsetTop<0)down=true;
+        }
+        if(right==true){
+        x+=10; 
+        move.style.left = x + 'px'; 
+        if(move.offsetLeft>width)right=false;
+        }
+        else if(right==false){
+        x-=10; 
+        move.style.left = x + 'px'; 
+        if(move.offsetLeft<10)right=true;
+        }
+        
+    }
+
+  </script>
+  </div>
+</html>

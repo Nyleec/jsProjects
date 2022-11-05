@@ -1,0 +1,14 @@
+## Task
+function to compare 2 strings and return the amount of different characters
+
+## Description
+compares 2 strings of the same length and returns the ammount of different characters. IF not not the ame length returns -1.
+
+## Installation
+Simply Download the Javascript file and pass two strings as arguements to the my_levenstein function.
+
+## Usage
+pass two strings as arguements to the my_levenstein when calling to function.
+
+### The Core Team
+me myself and I thats all I got and at the end end thats what I found out.
